@@ -221,3 +221,10 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+document.getElementById('downloadCvBtn').addEventListener('click', function() {
+    const link = document.createElement('a');
+    link.href = 'assets/files/Ahmedeltyeb-Khalifa-CV.pdf';  // Path to your CV file
+    link.download = 'Ahmedeltyeb-Khalifa-CV.pdf';
+    link.click();
+});
