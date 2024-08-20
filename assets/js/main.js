@@ -225,6 +225,6 @@
 document.getElementById('downloadCvBtn').addEventListener('click', function() {
     const link = document.createElement('a');
     link.href = 'assets/Ahmed Eltyeb Khalifa Web-SEO.pdf';  // Path to your CV file
-    link.download = 'assets/Ahmed Eltyeb Khalifa Web-SEO.pdf';
+    link.download = 'Ahmed Eltyeb Khalifa Web-SEO.pdf';
     link.click();
 });
